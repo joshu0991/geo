@@ -72,7 +72,7 @@ class Forecaster:
 
 def main():
     print('Starting')
-    f = Forcaster('geo_small_csv.txt')
+    f = Forecaster('geo_small_csv.txt')
     f.fit_data()
 
     for i in range(8, len(f.test_data())):
