@@ -3,7 +3,7 @@ import numpy as np
 from sklearn.model_selection import train_test_split
 from hmmlearn.hmm import GaussianHMM
 
-class Forcaster:
+class Forecaster:
     def __init__(self, file_name, n_hidden_states=4, test_size_mult=0.5, shuf=False, preprocess=True, latency_days=5):
         tupe = load_file_forcaster(file_name)
 
